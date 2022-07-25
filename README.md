@@ -4,6 +4,6 @@ Modified Huffman coding that tries to behave as an adaptive one (this is NOT a s
 
 # Results
 
-**Briefly**: Unlike normal Huffman coding, **Improved Huffman coding** works well for ***both*** static letter frequencies and **dynamic (!)** letter frequencies. Worst-case compression ratio for normal Huffman is around **1.06**, when in case with Improved Huffman the worst-case compression ratio is **1.18**, which is **better than normal Huffman**, so the efforts paid off.
+**Briefly**: Unlike normal Huffman coding that works well for static letter frequencies only, **Improved Huffman coding** works well for ***both*** static and **dynamic (!)** letter frequencies. Worst-case (dynamic freq.) compression ratio for normal Huffman was around **1.06**, when in case with Improved Huffman the worst-case compression ratio was around **1.18**, which is **better than normal Huffman**. Considering that a best-case (static freq.) compression ratio differed for a negligible amount for both codings (around 0.01 less for Improved Huffman), I can say that the **efforts for Improved Huffman coding paid off**.
 
 **A bit more detailed**: see [**THIS**](https://github.com/MrPatrek/java-improved-huffman-coding/blob/main/presentation.pdf).
